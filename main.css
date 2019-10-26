@@ -12,4 +12,10 @@ margin-bottom: 30px;
 .yellow{
   color: yellow;
   padding: 10px;
+
 }
+ .yellow::after{
+   content: "the greet";
+   display:block;
+   width: 100%;
+ }
